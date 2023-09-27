@@ -1,0 +1,389 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Faby4023/Python/blob/main/Atividade%20-%20Fabyanna\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SRecUaIqli56",
+        "outputId": "09397010-99ba-4c0d-84e1-9a09d1452f1a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá ETE PORTO DIGITAL!\n"
+          ]
+        }
+      ],
+      "source": [
+        "#1. Faça um CÓDIGO que mostre a mensagem \"Olá ETE PORTO DIGITAL!\" na tela.\n",
+        "\n",
+        "mensagem = \"Olá ETE PORTO DIGITAL!\"\n",
+        "print(mensagem)\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "TyL4Tnj7ops6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#2. Faça um CÓDIGO que peça um número e então mostre a mensagem O número informado foi [número].\n",
+        "\n",
+        "numero = input(\"Informe um número: \")\n",
+        "print(\"O número informado foi\", numero)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VgMSQE-tvGiH",
+        "outputId": "01453c5d-5e8f-4ac4-9c6b-47db40826b52"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Informe um número: 5\n",
+            "O número informado foi 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#3. Faça um CÓDIGO que peça dois números e imprima a soma.\n",
+        "\n",
+        "numero1 = float(input(\"informe o primeiro numero: \"))\n",
+        "numero2 = float(input(\"informe o segundo numero:\"))\n",
+        "\n",
+        "soma = numero1 + numero2\n",
+        "\n",
+        "print(\"A soma dos dois números é:\", soma)\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "s11C4gq9vc_i",
+        "outputId": "6df07b1b-a6b9-4cc2-ffb9-9a64057f275f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "informe o primeiro numero: 5\n",
+            "informe o segundo numero:5\n",
+            "A soma dos dois números é: 10.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "64_72NWFj0-I"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "HJWQbDQoyhd7"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#4. Faça um CÓDIGO que peça as 4 notas bimestrais e mostre a média final.\n",
+        "\n",
+        "nota1 = float(input(\"Digite a primeira nota: \"))\n",
+        "nota2 = float(input(\"Digite a segunda nota: \"))\n",
+        "nota3 = float(input(\"Digite a terceira nota: \"))\n",
+        "nota4 = float(input(\"Digite a quarta nota: \"))\n",
+        "\n",
+        "media = (nota1 + nota2 + nota3 + nota4) / 4\n",
+        "\n",
+        "print(\"A média final é:\", media)\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "j_P1LrfhyR_W",
+        "outputId": "a9c1555d-46a6-4125-9be3-7aea8d69de9b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a primeira nota: 7\n",
+            "Digite a segunda nota: 8\n",
+            "Digite a terceira nota: 9\n",
+            "Digite a quarta nota: 10\n",
+            "A média final é: 8.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#5. Faça um CÓDIGO que converta metros para centímetros.\n",
+        "\n",
+        "metros = float(input(\"Digite o valor em metros: \"))\n",
+        "\n",
+        "centimetros = metros * 100\n",
+        "\n",
+        "print(\"O valor em centímetros é:\", centimetros)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qrlYMvjOy9NW",
+        "outputId": "1bba489a-d653-4934-a2b9-f9a10aa56869"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor em metros: 100\n",
+            "O valor em centímetros é: 10000.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#6. Faça um CÓDIGO que peça o raio de um círculo, calcule e mostre sua área.\n",
+        "\n",
+        "lado = float(input(\"Digite o valor do lado do quadrado: \"))\n",
+        "\n",
+        "lado = float(input(\"Digite o valor do lado do quadrado: \"))\n",
+        "\n",
+        "area = lado ** 2\n",
+        "dobro_area = 2 * area\n",
+        "\n",
+        "print(\"A área do quadrado é:\", area)\n",
+        "print(\"O dobro da área é:\", dobro_area)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Je2VISGbzR6H",
+        "outputId": "06a1ea9e-f9f8-4a16-e585-2fc808787a2a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor do lado do quadrado: 10\n",
+            "Digite o valor do lado do quadrado: 10\n",
+            "A área do quadrado é: 100.0\n",
+            "O dobro da área é: 200.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#7. Faça um CÓDIGO que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.\"\"\"\n",
+        "\n",
+        "lado = float(input(\"Digite o valor do lado do quadrado: \"))\n",
+        "\n",
+        "area = lado ** 2\n",
+        "dobro_area = 2 * area\n",
+        "\n",
+        "print(\"A área do quadrado é:\", area)\n",
+        "print(\"O dobro da área é:\", dobro_area)"
+      ],
+      "metadata": {
+        "id": "7WPSxDFOzoBd",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "41c282bf-f34e-4733-8c9d-c7e2abf1d4ea"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor do lado do quadrado: 10\n",
+            "A área do quadrado é: 100.0\n",
+            "O dobro da área é: 200.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#8. Faça um CÓDIGO que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.\"\"\"\n",
+        "\n",
+        "valor_por_hora = float(input(\"Digite o valor do seu salário por hora: \"))\n",
+        "horas_trabalhadas = float(input(\"Digite o número de horas trabalhadas no mês: \"))\n",
+        "\n",
+        "salario_mensal = valor_por_hora * horas_trabalhadas\n",
+        "\n",
+        "print(\"Seu salário mensal é:\", salario_mensal)"
+      ],
+      "metadata": {
+        "id": "CuBarcLqkAFO",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "182f558d-0f2a-4c58-8756-41d14ea68f48"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor do seu salário por hora: 100\n",
+            "Digite o número de horas trabalhadas no mês: 1000\n",
+            "Seu salário mensal é: 100000.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#9. Faça um CÓDIGO que peça um valor e mostre na tela se o valor é positivo ou negativo.\"\"\"\n",
+        "\n",
+        "valor = float(input(\"Digite um valor: \"))\n",
+        "\n",
+        "if valor > 0:\n",
+        "    print(\"O valor é positivo.\")\n",
+        "elif valor < 0:\n",
+        "    print(\"O valor é negativo.\")\n",
+        "else:\n",
+        "    print(\"O valor é zero.\")"
+      ],
+      "metadata": {
+        "id": "1bvirpa8kFpm",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "9bac8321-d41f-422d-93ac-f194c76d6573"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um valor: 10\n",
+            "O valor é positivo.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#10. Faça um CÓDIGO que verifique se uma letra digitada é \"F\" ou \"M\". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.\"\"\"\n",
+        "\n",
+        "letra = input(\"Digite uma letra: \")\n",
+        "\n",
+        "if letra == \"F\" or letra == \"f\":\n",
+        "    print(\"F - Feminino\")\n",
+        "elif letra == \"M\" or letra == \"m\":\n",
+        "    print(\"M - Masculino\")\n",
+        "else:\n",
+        "    print(\"Sexo Inválido\")"
+      ],
+      "metadata": {
+        "id": "EJGuBmPRkLun",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "1324fb68-f53a-473a-eb66-ef1ea6701680"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite uma letra: F\n",
+            "F - Feminino\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
