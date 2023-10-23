@@ -1,0 +1,245 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Faby4023/Python/blob/main/Exercicio_projeto\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Pessoa:\n",
+        "    def __init__(self, nome, idade, endereco, sexo):\n",
+        "        self.nome = nome\n",
+        "        self.idade = idade\n",
+        "        self.endereco = endereco\n",
+        "        self.sexo = sexo\n",
+        "\n",
+        "nome = input(\" Fale seu nome?: \")\n",
+        "idade = input(\" Qual sua idade?: \")\n",
+        "endereco = input(\"Qual seu endereço?: \")\n",
+        "sexo = input(\"Qual seu sexo?: \")\n",
+        "\n",
+        "print(f\"Olá, meu nome é {nome}, tenho {idade} anos, moro em {endereco} e sou do sexo {sexo}.\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tLTZLNFLRBsu",
+        "outputId": "ffa46ba8-7ea7-42d8-c4c2-b5987fb4abfa"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " Fale seu nome?: Lucas\n",
+            " Qual sua idade?: 18 Anos\n",
+            "Qual seu endereço?: Rua Guarantã\n",
+            "Qual seu sexo?: Masculino\n",
+            "Olá, meu nome é Lucas, tenho 18 Anos anos, moro em Rua Guarantã e sou do sexo Masculino.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Cadastro:\n",
+        "  def __init__(self, nome, idade, genero, cpf, numero):\n",
+        "      self.nome = nome\n",
+        "      self.idade = idade\n",
+        "      self.genero = genero\n",
+        "      self.cpf = cpf\n",
+        "      self.numero = numero\n",
+        "\n",
+        "nome = input(\"Escreva o nome do idoso: \")\n",
+        "idade = input(\"Escreva a idade do idoso: \")\n",
+        "genero = input(\"Diga o gênero do idoso: \")\n",
+        "cpf = input(\"Escreva o cpf do idoso: \")\n",
+        "numero = input(\"Digite um número para contato: \")\n",
+        "\n",
+        "print(f\"{nome}, {idade}, {genero}, {cpf}, {numero}\")\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "_rxa5lgmUGNi",
+        "outputId": "b5de463f-6e6c-45c5-be2e-116bb80308ad",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Escreva o nome do idoso: Jose\n",
+            "Escreva a idade do idoso: 60\n",
+            "Diga o gênero do idoso: masculino\n",
+            "Escreva o cpf do idoso: 124732915\n",
+            "Digite um número para contato: 44008910\n",
+            "Jose,60,masculino,124732915,44008910\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Perfil_do_cuidador:\n",
+        "  def __init__(self, contratar, idade, genero, escolaridade, experiencia, preferencia):\n",
+        "      self.contratar = contratar\n",
+        "      self.idade = idade\n",
+        "      self.genero = genero\n",
+        "      self.escolaridade = escolaridade\n",
+        "      self.experiencia = experiencia\n",
+        "      self.preferencia = preferencia\n",
+        "\n",
+        "  contratar = input(\"Você contrataria um cuidador ou acompanhante? \")\n",
+        "  idade = input(\"Qual sua preferência de idade? \")\n",
+        "  genero = input(\"Qual sua preferência de gênero? \")\n",
+        "  escolaridade = input(\"Qual escolaridade do cuidador ou acompanhante você deseja? \")\n",
+        "  experiencia = input(\"O cuidador ou acompanhante necessita de experiencia? \")\n",
+        "  preferencia = input(\"Qual sua preferência de perfil para um cuidador ou acompanhante? Exemplo: Calmo, Introvertido, extrovertido, etc. . .: \")\n",
+        "\n",
+        "  print(f\"{contratar}, {idade}, {genero}, {escolaridade}, {experiencia}, {preferencia}.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rO0ws8metj8d",
+        "outputId": "04bdd1b9-9c71-4486-b93b-d2a7bd34180f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Você contrataria um cuidador ou acompanhante? Sim\n",
+            "Qual sua preferência de idade? 40\n",
+            "Qual seua preferência de gênero? Masculino\n",
+            "Qual escolaridade do cuidador ou acompanhante você deseja? Ensino Médio\n",
+            "O cuidador ou acompanhante necessita de experiencia? Não\n",
+            "Qual sua preferência de perfil para um cuidador ou acompanhante? Exemplo: Calmo, Introvertido, extrovertido, etc. . .Calmo\n",
+            "Sim, 40, Masculino, Ensino Médio, Não, Calmo.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Formas_de_pagamento:\n",
+        "  def __init__(self, valor, banco, agencia, conta):\n",
+        "      self.valor = valor\n",
+        "      self.banco = banco\n",
+        "      self.agencia = agencia\n",
+        "      self.conta = conta\n",
+        "\n",
+        "valor = input(\"Digite o valor do serviço: \")\n",
+        "banco = input(\"Digite o banco de sua preferência: \")\n",
+        "agencia = input(\"Digite a agência: \")\n",
+        "conta = input(\"Digite o número da conta: \")\n",
+        "\n",
+        "print(f\"O valor total é {valor}, o banco é {banco}, sua agência é {agencia} e sua conta é {conta}.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "d3UtT3TbyDSo",
+        "outputId": "eea0ded4-6ec9-45f3-b6fd-82c101e65558"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor do serviço:600\n",
+            "Digite o banco de sua preferência:bradesco\n",
+            "Digite a agência:2472\n",
+            "Digite o número da conta:3215-7\n",
+            "O valor total é 600, o banco é bradesco, sua agência é 2472 e sua conta é 3215-7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Feedback:\n",
+        "  def __init__(self, experiencia, qualidade, contrataria, nota):\n",
+        "    self.experiencia = experiencia\n",
+        "    self.qualidade = qualidade\n",
+        "    self.nota = nota\n",
+        "    self.contrataria = contrataria\n",
+        "\n",
+        "experiencia = input(\"Qual foi sua experiência com o cuidador ou acompanhante? \")\n",
+        "qualidade = input(\" Como foi a qualidade do serviço? \")\n",
+        "nota = input(\"Qual nota de 1 a 10 você daria ao nosso serviço? \")\n",
+        "contrataria = input(\"Você contrataria pelo nosso serviço novamente? \")\n",
+        "\n",
+        "print(f\"Sua experiencia foi {experiencia}, a qualidade do serviço foi {qualidade}, a nota do serviço é {nota}, você contrataria novamente? {contrataria}.\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FCSVLOM61LMI",
+        "outputId": "2d622085-9e50-4e7c-b5f8-db393ac14666"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Qual foi sua experiência com o cuidador ou acompanhante? Muito Boa\n",
+            " Como foi a qualidade do serviço? Excelente\n",
+            "Qual nota de 1 a 10 você daria ao nosso serviço? 10\n",
+            "Você contrataria pelo nosso serviço novamente? Sim\n",
+            "Sua experiencia foi Muito Boa, a qualidade do serviço foi Excelente, a nota do serviço é 10, você contrataria novamente? Sim.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "FZIgsOBInmIE"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
